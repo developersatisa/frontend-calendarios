@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://10.150.22.15:8091/v1/procesos/'; // Reemplaza con la URL de tu backend
+const API_URL = 'http://10.150.22.15:8091/v1/procesos'; // Reemplaza con la URL de tu backend
 
 export async function getProcesos() {
     const response = await axios.get(API_URL);
